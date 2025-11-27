@@ -1,0 +1,49 @@
+{
+    "model": "SVM",
+    "accuracy": 0.8382913806254767,
+    "test_samples": 1311,
+    "train_samples": 5712,
+    "classes": [
+        "glioma",
+        "meningioma",
+        "notumor",
+        "pituitary"
+    ],
+    "confusion_matrix": [
+        [
+            198,
+            83,
+            0,
+            19
+        ],
+        [
+            41,
+            244,
+            5,
+            16
+        ],
+        [
+            14,
+            0,
+            388,
+            3
+        ],
+        [
+            19,
+            12,
+            0,
+            269
+        ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n      glioma       0.73      0.66      0.69       300\n  meningioma       0.72      0.80      0.76       306\n     notumor       0.99      0.96      0.97       405\n   pituitary       0.88      0.90      0.89       300\n\n    accuracy                           0.84      1311\n   macro avg       0.83      0.83      0.83      1311\nweighted avg       0.84      0.84      0.84      1311\n",
+    "config": {
+        "kernel": "rbf",
+        "C": 10,
+        "gamma": "scale",
+        "class_weight": "balanced",
+        "img_size": [
+            224,
+            224
+        ]
+    }
+}

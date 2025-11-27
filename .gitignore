@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Dataset (too large for GitHub)
+archive/
+*.jpg
+*.jpeg
+*.png
+*.gif
+!results/*.png
+
+# Models (can be large)
+models/*.pth
+models/*.h5
+models/*.keras
+
+# Keep small models
+!models/svm_model.pkl
+!models/scaler.pkl
+!models/rf_model.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Results (keep structure but not all files)
+# results/*.png  # Uncomment to ignore result images

@@ -1,0 +1,19 @@
+# Core ML/Data Science Libraries
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+joblib>=1.0.0
+
+# Image Processing
+opencv-python>=4.5.0
+Pillow>=8.0.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Progress Bar
+tqdm>=4.60.0
+
+# Additional utilities
+scipy>=1.7.0
