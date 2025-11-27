@@ -275,14 +275,5 @@ Contributions are welcome! Please follow these steps:
 - Model interpretation tools
 - Documentation improvements
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- **Dataset**: Brain Tumor MRI Dataset (Kaggle/public domain)
-- **Libraries**: scikit-learn, OpenCV, NumPy, Matplotlib, Seaborn
-- **Inspiration**: Medical image analysis research community
 
 
